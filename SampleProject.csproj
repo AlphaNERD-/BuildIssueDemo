@@ -52,7 +52,6 @@
 		<EmbeddedResource Remove="Binding-Projekte\**" />
 		<None Remove="Binding-Projekte\**" />
 		<TransformFile Remove="Binding-Projekte\**" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\ApiDefinition.cs" />
 		<Compile Remove="Binding projects\iOS.Fujitsu\StructsAndEnums.cs" />
 		<Compile Remove="Binding projects\iOS.Fujitsu\ApiDefinition.cs" />
 		<Compile Remove="Binding projects\iOS.Fujitsu\obj\Debug\compiled-api-definitions-usings.cs" />
@@ -110,32 +109,6 @@
 		<None Remove="Binding projects\iOS.Fujitsu.Legacy\bin\Debug\iOS.Fujitsu.Legacy.resources.stamp" />
 		<None Remove="Binding projects\iOS.Fujitsu.Legacy\Native Library\libFTP2076210N0_IOS.a" />
 		<None Remove="Binding projects\iOS.Fujitsu.Legacy\Native Library\FTPIOSLibrary.h" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\StructsAndEnums.cs" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.nfloat.g.cs" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\obj\Debug\compiled-api-definitions-usings.cs" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS\iOS.ImenseANPR\ANPR_TX_LIB.g.cs" />
-		<Compile Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS\ObjCRuntime\Messaging.g.cs" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\iOS.ImenseANPR.csproj.nuget.g.props" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\project.nuget.cache" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\project.assets.json" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\iOS.ImenseANPR.csproj.nuget.g.targets" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\iOS.ImenseANPR.csproj.nuget.dgspec.json" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.assets.cache" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\response-file.rsp" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.GeneratedMSBuildEditorConfig.editorconfig" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\compiled-api-definitions.pdb" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.csproj.CoreCompileInputs.cache" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.pdb" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\compiled-api-definitions.dll" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.csproj.FileListAbsolute.txt" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS.ImenseANPR.dll" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\ref\iOS.ImenseANPR.dll" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\refint\iOS.ImenseANPR.dll" />
-		<None Remove="Binding projects\iOS.ImenseANPR\obj\Debug\iOS\sources.list" />
-		<None Remove="Binding projects\iOS.ImenseANPR\bin\Debug\iOS.ImenseANPR.pdb" />
-		<None Remove="Binding projects\iOS.ImenseANPR\bin\Debug\iOS.ImenseANPR.dll" />
-		<None Remove="Binding projects\iOS.ImenseANPR\bin\Debug\iOS.ImenseANPR.resources.stamp" />
-		<None Remove="Binding projects\iOS.ImenseANPR\Native Library\libALPR_EU_LIB.a" />
 		<None Remove="Binding projects\**" />
 	</ItemGroup>
 
@@ -164,7 +137,6 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
-	  <ProjectReference Include="Binding projects\iOS.ImenseANPR\iOS.ImenseANPR.csproj" />
 	  <ProjectReference Include="Binding projects\iOS.Fujitsu\iOS.Fujitsu.csproj" />
 	  <ProjectReference Include="Binding projects\iOS.Fujitsu.Legacy\iOS.Fujitsu.Legacy.csproj" />
 	</ItemGroup>
